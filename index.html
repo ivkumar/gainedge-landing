@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GainEdge - Train with purpose. Build discipline — one session at a time. The ultimate tennis training and tracking app.">
+  <meta name="keywords" content="GainEdge, tennis training, tennis tracking, tennis drills, tennis app">
+  <title>GainEdge - Train. Track. Compete.</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+        <img src="assets/images/logo.svg" alt="GainEdge Logo">
+        <span>GainEdge</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:gainedge.app@gmail.com">Contact</a>
+      </div>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="mailto:gainedge.app@gmail.com">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="assets/images/logo.svg" alt="GainEdge" class="hero-logo">
+      <h1>TRAIN. TRACK. COMPETE.</h1>
+      <p class="hero-tagline">Train with purpose. Build discipline — one session at a time.</p>
+      <div class="download-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.gainedgeapp" target="_blank" class="btn btn-google">
+          <i class="fab fa-google-play"></i>
+          <span>
+            <small>GET IT ON</small>
+            <strong>Google Play</strong>
+          </span>
+        </a>
+        <a href="https://apps.apple.com/us/app/gainedge-tennis-train-track/id6759570500" target="_blank" class="btn btn-apple">
+          <i class="fab fa-apple"></i>
+          <span>
+            <small>Download on the</small>
+            <strong>App Store</strong>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Everything You Need to <span class="highlight">Level Up</span> Your Game</h2>
+      <p class="section-subtitle">Powerful tools designed for tennis players, coaches, and enthusiasts</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3>Drills</h3>
+          <p>Structured tennis drills for skill development. Perfect your technique with guided training sessions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3>Rally</h3>
+          <p>Practice rally sessions with real-time tracking. Build consistency and endurance in your game.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Points</h3>
+          <p>Point-by-point match tracking. Analyze your performance and identify areas for improvement.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <h3>Conditioning</h3>
+          <p>Fitness and conditioning programs tailored for tennis. Stay fit and prevent injuries.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Player Management</h3>
+          <p>Manage players, teams, and coaches efficiently. Perfect for academies and training centers.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-volleyball-ball"></i>
+          </div>
+          <h3>Sports Categories</h3>
+          <p>Support for multiple sports beyond tennis. Track training across different disciplines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">Get Started in <span class="highlight">3 Simple Steps</span></h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <i class="fas fa-download"></i>
+            <h3>Download the App</h3>
+            <p>Get GainEdge from Google Play or Apple App Store — it's free to download.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <i class="fas fa-user-plus"></i>
+            <h3>Create Your Profile</h3>
+            <p>Sign up in seconds using your mobile number or email. Set up your player profile.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <i class="fas fa-rocket"></i>
+            <h3>Start Training</h3>
+            <p>Begin your tennis journey. Track drills, matches, and watch your game improve!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Preview Section -->
+  <section class="app-preview" id="preview">
+    <div class="container">
+      <div class="preview-content">
+        <div class="preview-text">
+          <h2 class="section-title">Your Personal <span class="highlight">Tennis Companion</span></h2>
+          <p>Whether you're a beginner learning the basics or a pro refining your technique, GainEdge has everything you need.</p>
+          <ul class="preview-features">
+            <li><i class="fas fa-check"></i> Track every drill, rally, and match</li>
+            <li><i class="fas fa-check"></i> Analyze your performance with detailed stats</li>
+            <li><i class="fas fa-check"></i> Set goals and monitor your progress</li>
+            <li><i class="fas fa-check"></i> Connect with coaches and training partners</li>
+          </ul>
+          <div class="preview-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.gainedgeapp" target="_blank" class="btn btn-primary">
+              <i class="fab fa-android"></i> Download for Android
+            </a>
+            <a href="https://apps.apple.com/us/app/gainedge-tennis-train-track/id6759570500" target="_blank" class="btn btn-primary-outline">
+              <i class="fab fa-apple"></i> Download for iOS
+            </a>
+          </div>
+        </div>
+        <div class="preview-image">
+          <div class="phone-mockup">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <div class="app-screen-content">
+                  <div class="screen-header">
+                    <span>GainEdge</span>
+                    <i class="fas fa-user-circle"></i>
+                  </div>
+                  <div class="screen-stats">
+                    <div class="stat-box">
+                      <span class="stat-value">24</span>
+                      <span class="stat-label">Drills</span>
+                    </div>
+                    <div class="stat-box">
+                      <span class="stat-value">156</span>
+                      <span class="stat-label">Rallies</span>
+                    </div>
+                    <div class="stat-box">
+                      <span class="stat-value">89%</span>
+                      <span class="stat-label">Win Rate</span>
+                    </div>
+                  </div>
+                  <div class="screen-activity">
+                    <div class="activity-item">
+                      <i class="fas fatennis-ball"></i>
+                      <span>Morning Practice - 45 min</span>
+                    </div>
+                    <div class="activity-item">
+                      <i class="fas fa-fire"></i>
+                      <span>3-Day Streak! Keep it up!</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Simple, Affordable <span class="highlight">Pricing</span></h2>
+      <p class="section-subtitle">Get unlimited access to all features with our annual subscription</p>
+
+      <div class="pricing-card">
+        <div class="pricing-badge">MOST POPULAR</div>
+        <h3>Premium Plan</h3>
+        <p class="pricing-description">Everything you need to become a better tennis player</p>
+
+        <div class="pricing-amount">
+          <span class="price-old" id="actualPrice">₹2,999</span>
+          <span class="price-new" id="offerPrice">₹899</span>
+          <span class="price-period">/year</span>
+        </div>
+
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Unlimited Drills & Training Sessions</li>
+          <li><i class="fas fa-check"></i> Advanced Match Analytics</li>
+          <li><i class="fas fa-check"></i> Player & Team Management</li>
+          <li><i class="fas fa-check"></i> Conditioning Programs</li>
+          <li><i class="fas fa-check"></i> Progress Tracking & Goals</li>
+          <li><i class="fas fa-check"></i> Priority Support</li>
+        </ul>
+
+        <button class="btn btn-subscribe" onclick="openSubscription()">
+          Subscribe Now
+        </button>
+
+        <p class="pricing-note">Cancel anytime. Secure payment via Razorpay.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Transform Your Tennis Game?</h2>
+      <p>Join thousands of players who are training smarter with GainEdge</p>
+      <div class="cta-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.gainedgeapp" target="_blank" class="btn btn-primary btn-lg">
+          <i class="fab fa-google-play"></i> Get Started Free
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/images/logo.svg" alt="GainEdge">
+          <p>Train. Track. Compete.<br>Your ultimate tennis companion.</p>
+          <div class="social-links">
+            <a href="https://play.google.com/store/apps/details?id=com.gainedgeapp" target="_blank"><i class="fab fa-android"></i></a>
+            <a href="https://apps.apple.com/us/app/gainedge-tennis-train-track/id6759570500" target="_blank"><i class="fab fa-apple"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="mailto:gainedge.app@gmail.com">Contact Us</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> gainedge.app@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Bangalore, India</p>
+        </div>
+
+        <div class="footer-download">
+          <h4>Download App</h4>
+          <a href="https://play.google.com/store/apps/details?id=com.gainedgeapp" target="_blank" class="download-badge">
+            <i class="fab fa-google-play"></i> Google Play
+          </a>
+          <a href="https://apps.apple.com/us/app/gainedge-tennis-train-track/id6759570500" target="_blank" class="download-badge">
+            <i class="fab fa-apple"></i> App Store
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 GainEdge. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Subscription Modal -->
+  <div id="subscriptionModal" class="modal">
+    <div class="modal-content subscription-box">
+      <span class="close" onclick="closeSubscription()">&times;</span>
+
+      <img src="assets/images/logo.svg" class="modal-logo" alt="GainEdge">
+      <h3 id="welcomeText">Welcome to GainEdge!</h3>
+
+      <select id="currencySelect" class="currency-dropdown">
+        <option value="INR" data-actual="₹2,999" data-coach="₹1,499" data-normal="₹899">INR - Indian Rupee</option>
+        <option value="USD" data-actual="$75" data-coach="$37" data-normal="$19">USD - US Dollar</option>
+        <option value="EUR" data-actual="€69" data-coach="€34" data-normal="€17">EUR - Euro</option>
+        <option value="GBP" data-actual="£59" data-coach="£29" data-normal="£15">GBP - British Pound</option>
+        <option value="AUD" data-actual="A$109" data-coach="A$54" data-normal="A$27">AUD - Australian Dollar</option>
+        <option value="CAD" data-actual="C$99" data-coach="C$49" data-normal="C$25">CAD - Canadian Dollar</option>
+        <option value="SGD" data-actual="S$99" data-coach="S$49" data-normal="S$25">SGD - Singapore Dollar</option>
+      </select>
+
+      <div class="price-row">
+        <span class="actual-price" id="actualPriceModal">₹2,999</span>
+        <span class="offer-price" id="offerPriceModal">₹899</span>
+        <span class="year">/ Year</span>
+      </div>
+
+      <button class="subscribe-main-btn" onclick="loadRazorpayScript()">
+        Subscribe Now <i class="fas fa-arrow-right"></i>
+      </button>
+
+      <button class="not-now-btn" onclick="closeSubscription()">NOT NOW</button>
+
+      <p class="modal-terms">
+        By subscribing, you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Error Modal -->
+  <div id="errorModal" class="modal">
+    <div class="modal-content error-box">
+      <p id="errorMessage"></p>
+      <button onclick="closeErrorModal()" class="error-ok-btn">OK</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
